@@ -1,0 +1,24 @@
+{
+    "name": "menezes/crud-generator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinicius Menezes",
+            "email": "vicmen22@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Menezes\\CrudGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Menezes\\CrudGenerator\\CrudGeneratorServiceProvider"
+            ]
+        }
+    }
+}
